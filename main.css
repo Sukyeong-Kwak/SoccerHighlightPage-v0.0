@@ -1,0 +1,92 @@
+html,
+body {
+  min-height: 100%;
+}
+
+/* header */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: 10;
+  font-family: "Roboto", sans-serif;
+}
+.leagues {
+  display: flex;
+  width: 600px;
+  height: 30px;
+  margin: auto auto;
+  justify-content: center;
+  margin-top: 15px;
+}
+.league {
+  color: white;
+  margin: 0 15px;
+  cursor: pointer;
+}
+.league:hover {
+  color: #000;
+}
+
+/* main */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.main {
+  width: 100%;
+  height: 100%;
+}
+.article {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow: hiddens;
+  z-index: 0;
+}
+.current-page {
+  z-index: 5;
+}
+.game {
+  width: 600px;
+  padding: 0 40px;
+  text-align: center;
+}
+.content {
+  margin: 10px 0;
+}
+.videos {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.game {
+  margin: 100px 0;
+}
+.video {
+  box-shadow: 5px 3px 5px 3px black;
+}
+.content .title {
+  padding-top: 20px;
+  font-size: 30px;
+  font-family: "Geologica", sans-serif;
+}
+.content .date {
+  padding-top: 15px;
+  font-size: 20px;
+  font-family: "Geologica", sans-serif;
+}
