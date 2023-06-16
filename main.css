@@ -59,7 +59,7 @@ header {
   z-index: 0;
 }
 .current-page {
-  z-index: 5;
+  color: black;
 }
 .game {
   width: 600px;
