@@ -53,7 +53,7 @@ header {
   padding-top: 70px;
   background-color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   overflow: hiddens;
   z-index: 0;
@@ -63,7 +63,7 @@ header {
 }
 .game {
   width: 600px;
-  padding: 0 40px;
+  padding: 0 70px;
   text-align: center;
 }
 .content {

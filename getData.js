@@ -12,6 +12,7 @@ function changePage(e) {
 }
 
 async function getData(leagueName) {
+  window.scrollTo(0, 0);
   try {
     const response = await fetch(scorebatUrl);
     const data = await response.json();
@@ -62,4 +63,3 @@ btn.forEach((item, index) => {
 });
 
 getData("ENGLAND: Premier League");
-outputData();
